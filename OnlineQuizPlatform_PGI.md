@@ -2,7 +2,7 @@
 
 Group Name: GROUP 9
 Project Title: Online Quiz Platform
-Group Members: Calda,Rodel
+Group Members: Calda,Rodel E.
                Camo,Lorenz 
                Decio,Rodel
 
