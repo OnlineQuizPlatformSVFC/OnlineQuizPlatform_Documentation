@@ -103,7 +103,7 @@ Project Management:
   •Project Monitoring and Control
   
        - Monitor Project Performance and Progress 
-       -  Control Issues and Changes
+       - Control Issues and Changes
        - Monitor Budget and Resources 
 
   •Project Execution
@@ -235,11 +235,11 @@ This document presents a thorough database architecture that includes important 
  
  Id: A distinct identifier for every person
  
- First name: The first name of the user
+ First Name: The first name of the user
  
- Middle name: The optional middle name of the user
+ Middle Name: The optional middle name of the user
  
- Last name: The last name of the user
+ Last Name: The last name of the user
  
  Email: The user's distinct email address
  
@@ -249,7 +249,7 @@ This document presents a thorough database architecture that includes important 
  
  Registered: A timestamp that represents the day of the user's registration
  
- last login: The user's most recent login time
+ Last Login: The user's most recent login time
  
  Profile Picture: The optional URL for the user's profile image
      
@@ -268,7 +268,7 @@ This table contains quiz-related information, such as:
  
  Duration: The allotted time to finish the quiz.
  
- Created by: A foreign key that points to the User table and identifies who made the quiz
+ Created By: A foreign key that points to the User table and identifies who made the quiz
  
  Created: A timestamp that represents the day the quiz was created
  
