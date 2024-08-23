@@ -70,6 +70,19 @@ Project Characteristics:
         * Ability to provide instant feedback to quiz takers.
         * User-friendly interface for quiz creation and management.
 
+        Students/Participants:
+        * Easy access to available quizzes through a dashboard.
+        * Ability to take quizzes within a set timeframe.
+        * Receive immediate feedback after quiz submission.
+        * Access to quiz history and performance statistics.
+        * Mobile accessibility to take quizzes on different devices.
+        * Secure login and user data protection.
+        
+        Administrators:
+        * Manage user roles and permissions (e.g., educators, students).
+        * Monitor system performance and user activity.
+        * Ensure data security and handle backup processes.
+        * Manage platform settings, including language and appearance customization.
         2. Use case
 
 ## F. Database Architecture
