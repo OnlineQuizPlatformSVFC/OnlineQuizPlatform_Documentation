@@ -8,7 +8,6 @@ Project Features:
  User Management
 
          Registration and Login: Easy sign-up with email.
-         User Management
 
          User Profiles: Personalized dashboards with progress tracking.
 
