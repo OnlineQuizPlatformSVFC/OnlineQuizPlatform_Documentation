@@ -7,7 +7,9 @@ The online quiz platform aims to provide a simple digital solution for teachers 
 
 User Management
 Registration and Login: Easy sign-up with email.
+
 User Profiles: Personalized dashboards with progress tracking.
+
 Role-Based Access: Differentiated access for students, teachers, and admins.
 
 Quiz Creation and Management
