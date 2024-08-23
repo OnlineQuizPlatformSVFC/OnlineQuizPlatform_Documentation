@@ -49,7 +49,7 @@ Project Characteristics:
 
     Secure: Prioritizes user data protection with robust security features.
 
-    Flexible: Customizable features to suit different educational needs.
+ 
 
 
 
