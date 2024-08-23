@@ -3,7 +3,7 @@ The online quiz platform aims to provide a simple digital solution for teachers 
 
 ## B. Project Features and Characteristics
 
-##Project Features:
+#Project Features:
 
 User Management
 Registration and Login: Easy sign-up with email.
