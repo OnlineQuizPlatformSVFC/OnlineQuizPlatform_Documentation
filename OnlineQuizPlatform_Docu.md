@@ -216,28 +216,46 @@ Marketing and Launch:
 This document presents a thorough database architecture that includes important tables, relationships, and factors to take into account for effective data management for an online quiz platform. Analytics, user interactions, and many quiz types are supported by the architecture.
 
  •User Table: Information about users is stored in this table, which includes:
+ 
  Id: A distinct identifier for every person
+ 
  First name: The first name of the user
+ 
  Middle name: The optional middle name of the user
+ 
  Last name: The last name of the user
+ 
  Email: The user's distinct email address
+ 
  Password: An authenticating password that has been securely hashed
+ 
  Role: User role (e.g., instructor, administrator, student)
+ 
  Registered: A timestamp that represents the day of the user's registration
+ 
  last login: The user's most recent login time
+ 
  Profile Picture: The optional URL for the user's profile image
      
 •Quiz Table:
 This table contains quiz-related information, such as:
 
  Id: A special number assigned to each quiz.
+ 
  Title: The quiz's title
+ 
  Description: An overview of the test
+ 
  Category: The quiz's topic or category
+ 
  Difficulty: The quiz's degree of difficulty (easy, medium, hard, etc.)
+ 
  Duration: The allotted time to finish the quiz.
+ 
  Created by: A foreign key that points to the User table and identifies who made the quiz
+ 
  Created: A timestamp that represents the day the quiz was created
+ 
  Published: A flag designating the quiz's public accessibility.
  
 •Question Table:
