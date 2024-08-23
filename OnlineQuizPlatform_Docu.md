@@ -18,6 +18,8 @@ Timed Quiz: Set time limits for quizzes or individual questions.
 
 User Experience (UX)
 Responsive Design: Accessible on all devices (desktop, mobile).
+
+
 Intuitive Interface: User-friendly design for easy navigation.
 
 Notifications
