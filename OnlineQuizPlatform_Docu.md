@@ -48,10 +48,6 @@ Project Characteristics:
 
     Secure: Prioritizes user data protection with robust security features.
 
- 
-
-
-
 
 ## C. Project Scope
 User Accounts: To manage their quizzes and keep track of their progress,
@@ -90,7 +86,7 @@ Security:
   
 Administration:
 - An admin interface for controlling platform settings, quizzes, and user accounts
- - Content assessment and spam prevention moderation tools
+- Content assessment and spam prevention moderation tools
    
 
 ## D. Work breakdown Structure
