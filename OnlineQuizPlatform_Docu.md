@@ -60,6 +60,15 @@ Project Characteristics:
 ## E. Functional Requirements
 
         1. User  Requirements
+        Educators/Instructors:
+        * Ability to create and customize quizzes with different types of questions (multiple-choice, true/false, short answer, essay).
+        * Capability to schedule quizzes for specific dates and times.
+        * Option to set time limits for each quiz.
+        * Automated grading system for objective questions.
+        * Real-time monitoring of quiz progress and participant performance.
+        * Access to detailed reports and analytics for quizzes.
+        * Ability to provide instant feedback to quiz takers.
+        * User-friendly interface for quiz creation and management.
 
         2. Use case
 
