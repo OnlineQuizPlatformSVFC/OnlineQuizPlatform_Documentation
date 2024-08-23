@@ -5,7 +5,8 @@ Project Title: Online Quiz Platform
 Group Members: Calda,Rodel E.
                Camo,Lorenz 
                Decio,Rodel
-
+               Maitom, Christine Jane
+               
 ## A. Problem Statement:
 There is an increasing demand for effective and efficient ways of assessing knowledge and abilities in today’s educational environment. Traditional paper-based quizzes and tests take a long time to administer and mark, making it difficult for teachers and instructors to respond in a timely manner. Furthermore, these strategies are often rigid, making it difficult to accommodate learning preferences for distant students or different individuals. With the rise of digital learning, there is a need for an online quiz system that can automate the creation, management and grading of quizzes.
 
