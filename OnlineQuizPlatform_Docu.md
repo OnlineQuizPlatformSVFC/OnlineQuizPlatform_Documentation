@@ -8,7 +8,7 @@
 
 ## E. Functional Requirements
 
-        1. User Requirements
+        1. User  Requirements
 
         2. Use case
 
