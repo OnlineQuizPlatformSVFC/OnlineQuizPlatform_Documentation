@@ -3,9 +3,9 @@ The online quiz platform aims to provide a simple digital solution for teachers 
 
 ## B. Project Features and Characteristics
 
-#Project Features:
+Project Features:
 
- *User Management
+ User Management
 
          Registration and Login: Easy sign-up with email.
          User Management
@@ -15,7 +15,7 @@ The online quiz platform aims to provide a simple digital solution for teachers 
          Role-Based Access: Differentiated access for students, teachers, and admins.
 
 
-*Quiz Creation and Management
+Quiz Creation and Management
 
         Custom Quiz Builder: Supports multiple question types and formats.
 
@@ -27,7 +27,7 @@ The online quiz platform aims to provide a simple digital solution for teachers 
 
 
 
-*Quiz Creation and Management
+Quiz Creation and Management
 
       Custom Quiz Builder: Supports multiple question types and formats.
     
@@ -37,31 +37,30 @@ The online quiz platform aims to provide a simple digital solution for teachers 
 
      Timed Quiz: Set time limits for quizzes or individual questions.
 
-*User Experience (UX)
+User Experience (UX)
 
      Responsive Design: Accessible on all devices (desktop, mobile).
 
      Intuitive Interface: User-friendly design for easy navigation.
 
+
+Notifications
      
-*Notifications
      Email and SMS Alerts: notifications for quiz deadlines and results.
 
-Customer Support: Access to email, or phone.
-
-*Customization
-Theming: Customizable themes.
+     Customer Support: Access to email, or phone. 
+     
 
 
-##Project Characteristics:
+Project Characteristics:
 
-User-Friendly: Focused on providing an accessible and intuitive user experience.
+    User-Friendly: Focused on providing an accessible and intuitive user experience.
 
-Scalable: Designed to support a large number of users and quizzes.
+    Scalable: Designed to support a large number of users and quizzes.
 
-Secure: Prioritizes user data protection with robust security features.
+    Secure: Prioritizes user data protection with robust security features.
 
-Flexible: Customizable features to suit different educational needs.
+    Flexible: Customizable features to suit different educational needs.
 
 
 
