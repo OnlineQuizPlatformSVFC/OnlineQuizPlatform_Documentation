@@ -95,92 +95,92 @@ The main actions involved in creating an online quiz platform are delineated in 
 Project Management:
 
   •Project Planning
-     - To develop a project schedule and timeline
-     - To Identify and Manage Risks 
-     - To Define a Communication Plan
+      - To develop a project schedule and timeline
+      - To Identify and Manage Risks 
+      - To Define a Communication Plan
 
   •Project Monitoring and Control
-      - Monitor Project Performance and Progress 
-      -  Control Issues and Changes
-      - Monitor Budget and Resources 
+       - Monitor Project Performance and Progress 
+       -  Control Issues and Changes
+       - Monitor Budget and Resources 
 
   •Project Execution
-      - Team Management and Coordination
-      - Risk Mitigation and Response
-      - Reporting and Stakeholder Communication
+       - Team Management and Coordination
+       - Risk Mitigation and Response
+       - Reporting and Stakeholder Communication
 
   •Project Closure
-      - Finalize Deliverables and Documentation
-      - Review and Evaluate the Project
+       - Finalize Deliverables and Documentation
+       - Review and Evaluate the Project
 
 Platform Development:
 
   •Frontend Development
-      - Design and Development of User Interfaces 
-      - Management of User Accounts and Verification
-      - Editor and Creation Interface for Quizzes 
-      - Features for Collaboration and Sharing of Quizzes
+       - Design and Development of User Interfaces 
+       - Management of User Accounts and Verification
+       - Editor and Creation Interface for Quizzes 
+       - Features for Collaboration and Sharing of Quizzes
 
   • Backend Development
-      - Security and Management of User Data
-      - Quiz Data Archiving and Access
-      - Quiz Content Management System 
-      - Tracking and optimizing performance
+        - Security and Management of User Data
+        - Quiz Data Archiving and Access
+        - Quiz Content Management System 
+        - Tracking and optimizing performance
 
   • Testing and Quality Assurance
-      - Individual Component Unit Testing 
-      - Acceptance Testing for Users (UAT) 
-      - Testing for Load and Performance
+        - Individual Component Unit Testing 
+        - Acceptance Testing for Users (UAT) 
+        - Testing for Load and Performance
 
   • Deployment and Maintenance
-      - Configuring and Setup Infrastructure 
-      - Release management and platform deployment
-      - Bug Repair and Problem Solving 
-      - Updates for the system and new features
+        - Configuring and Setup Infrastructure 
+        - Release management and platform deployment
+        - Bug Repair and Problem Solving 
+        - Updates for the system and new features
 
 Content Management:
  
   •Content Creation Tools
-     - Interface for creating and editing questions
-     - Quiz Content Management System
-     - Ability to upload images and videos
+       - Interface for creating and editing questions
+       - Quiz Content Management System
+       - Ability to upload images and videos
 
   •Content Moderation
-      - Procedure for Content Approval and Review
-      - Identification and Avoidance of Spam
-      - Systems for User Reporting and Feedback
+        - Procedure for Content Approval and Review
+        - Identification and Avoidance of Spam
+        - Systems for User Reporting and Feedback
 
   • Content Distribution and Sharing
-      - Features for Quiz Sharing (Links, Social Media) 
-      - Features for Collaboration When Creating Quizzes
-      - Search and Content Discovery Features
+        - Features for Quiz Sharing (Links, Social Media) 
+        - Features for Collaboration When Creating Quizzes
+        - Search and Content Discovery Features
 
 Security and Privacy:
  
   • User Authentication and Authorization
-      - Secure User Registration and Login 
-      - Access Control Based on Roles for Various Users
-      - Security and Management of Passwords
+        - Secure User Registration and Login 
+        - Access Control Based on Roles for Various Users
+        - Security and Management of Passwords
 
  •Data Encryption and Storage
-      - Secure Data Encryption and Storage
-      - Disaster Recovery and Data Backup
+        - Secure Data Encryption and Storage
+        - Disaster Recovery and Data Backup
 
  •Security Testing and Vulnerability Management
-      - Regular Security Audits and Penetration Testing
-      - Patching and Vulnerability Management
+        - Regular Security Audits and Penetration Testing
+        - Patching and Vulnerability Management
 
 Marketing and Launch:
  
  •Marketing Strategy and Plan
-       - Identification and Segmentation of the Target Audience
-       - Advertising Campaigns and Channels 
-       - Social media Interaction and Content Marketing
+         - Identification and Segmentation of the Target Audience
+         - Advertising Campaigns and Channels 
+         - Social media Interaction and Content Marketing
 
  •Platform Launch and Promotion
-       - Beta Testing and Gathering Input 
-       - Public Introduction and Declaration 
-      - User Acquisition and Growth Strategies
+          - Beta Testing and Gathering Input 
+          - Public Introduction and Declaration 
+          - User Acquisition and Growth Strategies
 
 
 
