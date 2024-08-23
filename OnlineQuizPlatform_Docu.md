@@ -54,8 +54,48 @@ Project Characteristics:
 
 
 ## C. Project Scope
+User Accounts: To manage their quizzes and keep track of their progress,
+users can register and establish accounts.
+
+Quiz Creation:These tools allow users to make quizzes
+
+- Multiple question types (true/false, multiple choice, fill-in-the-blank, open-ended)
+- Levels of difficulty
+- Time limits of quiz
+- Integration of images/videos (optional)
+  
+Quiz Taking :
+- Monitor their development and view results 
+- Complete tests that they or others have created
+- Receive feedback on their performance
+  
+Quiz Management:
+- Sort quizzes according to subject
+- Edit and delete quizzes
+- Post and remove quizzes
+  
+ Reporting and Analytics: 
+- View the detailed performance reports for the quiz
+- Analyze the user to engagement and quiz effectiveness
+  
+Sharing and Collaboration: 
+- Distribute quizzes to others using social media or links
+- Work with other users to create quizzes
+- Monitor how well shared quizzes are performing
+  
+Security:
+- Secure password management and user authentication
+- Secure storage and encryption of data
+- Access controls to protect user privacy
+  
+Administration:
+- An admin interface for controlling platform settings, quizzes, and user accounts
+ - Content assessment and spam prevention moderation tools
+   
 
 ## D. Work breakdown Structure
+
+
 
 ## E. Functional Requirements
 
