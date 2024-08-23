@@ -24,18 +24,7 @@ Quiz Creation and Management
         Randomization: Shuffle questions and answers to prevent cheating.
 
         Timed Quiz: Set time limits for quizzes or individual questions.
-
-
-
-Quiz Creation and Management
-
-      Custom Quiz Builder: Supports multiple question types and formats.
-    
-      Question Bank: Central repository for reusable questions.
-
-      Randomization: Shuffle questions and answers to prevent cheating.
-
-     Timed Quiz: Set time limits for quizzes or individual questions.
+        
 
 User Experience (UX)
 
