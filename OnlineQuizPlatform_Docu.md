@@ -50,43 +50,10 @@ Project Characteristics:
 
 
 ## C. Project Scope
-User Accounts: To manage their quizzes and keep track of their progress,
-users can register and establish accounts.
 
-Quiz Creation:These tools allow users to make quizzes
+The Online Quiz Platform is an all-inclusive web application created to make it easier to create, administer, and take part in online quizzes. With a tools for making and administering quizzes, taking quizzes, getting feedback, and analyzing outcomes, this platform will serve both administrators and users to strong security measures, an intuitive user interface, and an adaptable question management system that supports a range of question kinds and difficulty levels will all be features of the platform. The platform will also be made to be universally accessible, adaptable, and responsive to mobile devices. A fully working web application, thorough documentation, extensive testing, and training materials to guarantee successful implementation and usage are all part of the project deliverables.
 
-- Multiple question types (true/false, multiple choice, fill-in-the-blank, open-ended)
-- Levels of difficulty
-- Time limits of quiz
-- Integration of images/videos (optional)
-  
-Quiz Taking :
-- Monitor their development and view results 
-- Complete tests that they or others have created
-- Receive feedback on their performance
-  
-Quiz Management:
-- Sort quizzes according to subject
-- Edit and delete quizzes
-- Post and remove quizzes
-  
- Reporting and Analytics: 
-- View the detailed performance reports for the quiz
-- Analyze the user to engagement and quiz effectiveness
-  
-Sharing and Collaboration: 
-- Distribute quizzes to others using social media or links
-- Work with other users to create quizzes
-- Monitor how well shared quizzes are performing
-  
-Security:
-- Secure password management and user authentication
-- Secure storage and encryption of data
-- Access controls to protect user privacy
-  
-Administration:
-- An admin interface for controlling platform settings, quizzes, and user accounts
-- Content assessment and spam prevention moderation tools
+
    
 
 ## D. Work breakdown Structure
