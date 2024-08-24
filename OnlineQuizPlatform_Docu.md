@@ -229,9 +229,8 @@ Marketing and Launch:
         2. Use case
 
 ## F. Database Architecture
-This document presents a thorough database architecture that includes important tables, relationships, and factors to take into account for effective data management for an online quiz platform. Analytics, user interactions, and many quiz types are supported by the architecture.
 
- •User Table: Information about users is stored in this table, which includes:
+ 1. User Table: Information about users is stored in this table, which includes:
  
  Id: A distinct identifier for every person
  
@@ -274,17 +273,18 @@ This table contains quiz-related information, such as:
  
  Published: A flag designating the quiz's public accessibility.
  
-•Question Table:
+2. Question Table:
 
 
 
 
-•Answer Table:
+
+3. Answer Table:
 
 
 
 
-•Attempt Table:
+4. Attempt Table:
 
 
 
