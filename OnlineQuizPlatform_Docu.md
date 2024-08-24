@@ -252,7 +252,7 @@ Marketing and Launch:
  
  Profile Picture: The optional URL for the user's profile image
      
-•Quiz Table:
+2.Quiz Table:
 This table contains quiz-related information, such as:
 
  Id: A special number assigned to each quiz.
@@ -273,18 +273,18 @@ This table contains quiz-related information, such as:
  
  Published: A flag designating the quiz's public accessibility.
  
-2. Question Table:
+3. Question Table:
 
 
 
 
 
-3. Answer Table:
+4. Answer Table:
 
 
 
 
-4. Attempt Table:
+5. Attempt Table:
 
 
 
