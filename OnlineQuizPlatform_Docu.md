@@ -168,29 +168,26 @@ Marketing and Launch:
 ## E. Functional Requirements
 
         1. User  Requirements
-        Educators/Instructors:
-        * Ability to create and customize quizzes with different types of questions (multiple-choice, true/false, short answer, essay).
-        * Capability to schedule quizzes for specific dates and times.
-        * Option to set time limits for each quiz.
-        * Automated grading system for objective questions.
-        * Real-time monitoring of quiz progress and participant performance.
-        * Access to detailed reports and analytics for quizzes.
-        * Ability to provide instant feedback to quiz takers.
-        * User-friendly interface for quiz creation and management.
-
-        Students/Participants:
-        * Easy access to available quizzes through a dashboard.
-        * Ability to take quizzes within a set timeframe.
-        * Receive immediate feedback after quiz submission.
-        * Access to quiz history and performance statistics.
-        * Mobile accessibility to take quizzes on different devices.
-        * Secure login and user data protection.
-        
-        Administrators:
-        * Manage user roles and permissions (e.g., educators, students).
-        * Monitor system performance and user activity.
-        * Ensure data security and handle backup processes.
-        * Manage platform settings, including language and appearance customization.
+| No. | Users                   | System Features                                           | Requirement                                                                 |
+|-----|-------------------------|-----------------------------------------------------------|------------------------------------------------------------------------------|
+| 1   | Educators/Instructors    | A. Quiz Management                                        | 1. Ability to create and customize quizzes with different types of questions (multiple-choice, true/false, short answer, essay). |
+|     |                         |                                                           | 2. Capability to schedule quizzes for specific dates and times.              |
+|     |                         |                                                           | 3. Option to set time limits for each quiz.                                   |
+|     |                         |                                                           | 4. Automated grading system for objective questions.                         |
+|     |                         |                                                           | 5. Real-time monitoring of quiz progress and participant performance.        |
+|     |                         |                                                           | 6. Access to detailed reports and analytics for quizzes.                     |
+|     |                         |                                                           | 7. Ability to provide instant feedback to quiz takers.                       |
+|     |                         |                                                           | 8. User-friendly interface for quiz creation and management.                 |
+| 2   | Students/Participants    | A. Quiz Access and Interaction                            | 1. Easy access to available quizzes through a dashboard.                     |
+|     |                         |                                                           | 2. Ability to take quizzes within a set timeframe.                           |
+|     |                         |                                                           | 3. Receive immediate feedback after quiz submission.                         |
+|     |                         |                                                           | 4. Access to quiz history and performance statistics.                        |
+|     |                         |                                                           | 5. Mobile accessibility to take quizzes on different devices.                |
+|     |                         |                                                           | 6. Secure login and user data protection.                                    |
+| 3   | Administrators           | A. System Management                                      | 1. Manage user roles and permissions (e.g., educators, students).            |
+|     |                         |                                                           | 2. Monitor system performance and user activity.                             |
+|     |                         |                                                           | 3. Ensure data security and handle backup processes.                         |
+|     |                         |                                                           | 4. Manage platform settings, including language and appearance customization. |
         2. Use case
 
 ## F. Database Architecture
