@@ -50,9 +50,10 @@ Project Characteristics:
 
 ## C. Project Scope
 
-The Online Quiz Platform is an all-inclusive web application created to make it easier to create, administer, and take part in online quizzes. With a tools for making and administering quizzes, taking quizzes, getting feedback, and analyzing outcomes, this platform will serve both administrators and users to strong security measures, an intuitive user interface, and an adaptable question management system that supports a range of question kinds and difficulty levels will all be features of the platform.
+The Online Quiz Platform is a web application created to make it easier to create, administer, and take part in online quizzes. With a tools for making and administering quizzes, taking quizzes, getting feedback, and analyzing outcomes, this platform will serve both administrators and users to security measures, an intuitive user interface, and an adaptable question management system that supports a range of question kinds and difficulty levels will all be features of the platform.
+The platform will also be made to be universally accessible, adaptable, and responsive to mobile devices. A working web application, thorough documentation, extensive testing, and training materials to guarantee successful implementation and usage are all part of the project deliverables.
 
-The platform will also be made to be universally accessible, adaptable, and responsive to mobile devices. A fully working web application, thorough documentation, extensive testing, and training materials to guarantee successful implementation and usage are all part of the project deliverables.
+The online quiz platform may face limitations in customization for complex quiz formats and handling large user loads, which could impact performance. Security challenges such as preventing cheating and data breaches could affect reliability. Limited offline functionality means users need a stable internet connection, restricting access in areas with poor connectivity. 
 
 
    
