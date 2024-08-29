@@ -194,72 +194,72 @@ Marketing and Launch:
 
 ## F. Database Architecture
 
- 1. User Table: Information about users is stored in this table, which includes:
- 
- Id: A distinct identifier for every person
- 
- First Name: The first name of the user
- 
- Middle Name: The optional middle name of the user
- 
- Last Name: The last name of the user
- 
- Email: The user's distinct email address
- 
- Password: An authenticating password that has been securely hashed
- 
- Role: User role (e.g., instructor, administrator, student)
- 
- Registered: A timestamp that represents the day of the user's registration
- 
- Last Login: The user's most recent login time
- 
- Profile Picture: The optional URL for the user's profile image
-     
-2.Quiz Table:
-This table contains quiz-related information, such as:
+Here's a properly formatted data dictionary for the database architecture, including the table schemas:
 
- Id: A special number assigned to each quiz.
- 
- Title: The quiz's title
- 
- Description: An overview of the test
- 
- Category: The quiz's topic or category
- 
- Difficulty: The quiz's degree of difficulty (easy, medium, hard, etc.)
- 
- Duration: The allotted time to finish the quiz.
- 
- Created By: A foreign key that points to the User table and identifies who made the quiz
- 
- Created: A timestamp that represents the day the quiz was created
- 
- Published: A flag designating the quiz's public accessibility.
- 
-3. Question Table:
+### Data Dictionary
+
+#### 1. User Table
+
+| Column Name     | Data Type      | Constraints                | Description                           |
+|-----------------|-----------------|-----------------------------|---------------------------------------|
+| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each user       |
+| First Name      | VARCHAR(50)     | NOT NULL                    | User's first name                     |
+| Middle Name      | VARCHAR(50)     | NULL                        | Optional middle name                 |
+| Last Name       | VARCHAR(50)     | NOT NULL                    | User's last name                      |
+| Email           | VARCHAR(100)    | UNIQUE, NOT NULL            | Unique email address                  |
+| Password        | VARCHAR(255)    | NOT NULL                    | Hashed password                       |
+| Role            | ENUM('instructor', 'administrator', 'student') | NOT NULL | Role of the user                      |
+| Registered      | DATETIME        | NOT NULL                    | Timestamp of user registration        |
+| Last Login      | DATETIME        | NULL                        | Timestamp of last user login          |
+| Profile Picture | VARCHAR(255)    | NULL                        | URL of the user's profile picture     |
+
+#### 2. Quiz Table
+
+| Column Name     | Data Type      | Constraints                | Description                           |
+|-----------------|-----------------|-----------------------------|---------------------------------------|
+| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each quiz        |
+| Title           | VARCHAR(100)    | NOT NULL                    | Title of the quiz                     |
+| Description     | TEXT            | NULL                        | Overview of the quiz                  |
+| Category        | VARCHAR(50)     | NULL                        | Topic or category of the quiz         |
+| Difficulty      | ENUM('easy', 'medium', 'hard') | NULL      | Difficulty level of the quiz          |
+| Duration        | INT             | NOT NULL                    | Time allotted to complete the quiz (in minutes) |
+| Created By      | INT             | FOREIGN KEY (User.Id)       | User ID of the quiz creator            |
+| Created         | DATETIME        | NOT NULL                    | Timestamp of quiz creation            |
+| Published       | BOOLEAN         | DEFAULT FALSE               | Flag indicating if the quiz is published |
+
+#### 3. Question Table
+
+| Column Name     | Data Type      | Constraints                | Description                           |
+|-----------------|-----------------|-----------------------------|---------------------------------------|
+| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each question    |
+| Quiz Id         | INT             | FOREIGN KEY (Quiz.Id)       | ID of the quiz the question belongs to |
+| Question Text   | TEXT            | NOT NULL                    | Text of the question                  |
+| Question Type   | ENUM('multiple-choice', 'true/false', 'short answer', 'essay') | NOT NULL | Type of the question                  |
+| Options         | JSON            | NULL                        | Options for multiple-choice questions (if applicable) |
+| Correct Answer  | TEXT            | NOT NULL                    | Correct answer for the question       |
+
+#### 4. Answer Table
+
+| Column Name     | Data Type      | Constraints                | Description                           |
+|-----------------|-----------------|-----------------------------|---------------------------------------|
+| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each answer      |
+| Question Id     | INT             | FOREIGN KEY (Question.Id)   | ID of the question being answered      |
+| User Id         | INT             | FOREIGN KEY (User.Id)       | ID of the user who answered            |
+| Answer Text     | TEXT            | NOT NULL                    | Text of the user's answer             |
+| Is Correct      | BOOLEAN         | NOT NULL                    | Flag indicating if the answer is correct |
+
+#### 5. Attempt Table
+
+| Column Name     | Data Type      | Constraints                | Description                           |
+|-----------------|-----------------|-----------------------------|---------------------------------------|
+| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each attempt     |
+| Quiz Id         | INT             | FOREIGN KEY (Quiz.Id)       | ID of the quiz being attempted         |
+| User Id         | INT             | FOREIGN KEY (User.Id)       | ID of the user taking the quiz         |
+| Start Time      | DATETIME        | NOT NULL                    | Timestamp of when the attempt started  |
+| End Time        | DATETIME        | NOT NULL                    | Timestamp of when the attempt ended    |
+| Score           | DECIMAL(5, 2)   | NULL                        | Final score of the attempt            |
+| Duration        | INT             | NOT NULL                    | Time taken to complete the quiz (in minutes) |
 
 
-
-
-
-4. Answer Table:
-
-
-
-
-5. Attempt Table:
-
-
-
-
-
-
-
-
-
-
-
-Data Dictionary
  ERD
  
