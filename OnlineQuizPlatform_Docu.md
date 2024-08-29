@@ -91,9 +91,6 @@ The main actions involved in creating an online quiz platform are delineated in 
 ![graphviz](https://github.com/user-attachments/assets/a191530e-b623-40f2-9462-2dc917ad2f1d)
 
 ## F. Database Architecture
-
-Here's a properly formatted data dictionary for the database architecture, including the table schemas:
-
 ### Data Dictionary
 
 #### 1. User Table
