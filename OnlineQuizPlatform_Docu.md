@@ -189,6 +189,8 @@ Marketing and Launch:
 |     |                         |                                                           | 3. Ensure data security and handle backup processes.                         |
 |     |                         |                                                           | 4. Manage platform settings, including language and appearance customization. |
         2. Use case
+        
+![graphviz](https://github.com/user-attachments/assets/a191530e-b623-40f2-9462-2dc917ad2f1d)
 
 ## F. Database Architecture
 
