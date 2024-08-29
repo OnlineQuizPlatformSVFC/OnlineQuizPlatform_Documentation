@@ -261,5 +261,8 @@ Here's a properly formatted data dictionary for the database architecture, inclu
 | Duration        | INT             | NOT NULL                    | Time taken to complete the quiz (in minutes) |
 
 
- ERD
+### ERD
+
+![image](https://github.com/user-attachments/assets/5a982074-2607-4839-b148-f921b8bdf8f8)
+
  
