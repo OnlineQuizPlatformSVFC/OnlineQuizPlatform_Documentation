@@ -55,7 +55,12 @@ To develop a OnlineQuizPlatform APP that will help manage the quiz with the foll
 ## G. Estimated Project Duration:
 4-6 months
 
-Prepared by: Calda,Rodel  E.
+Prepared by: 
+            
+             Calda,Rodel  E.
+             
              Camo,Lorenz  T.
-             Decio,Rodel  M
+             
+             Decio,Rodel  M.
+             
              Maitom, Christine Jane M.
