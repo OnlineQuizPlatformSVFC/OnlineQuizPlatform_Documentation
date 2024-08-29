@@ -58,7 +58,7 @@ The platform will also be made to be universally accessible, adaptable, and resp
    
 
 ## D. Work breakdown Structure
-The main actions involved in creating an online quiz platform are delineated in this Work Breakdown Structure (WBS). The project is divided into manageable parts by its hierarchical structure.
+The main actions involved in creating an online quiz platform are delineated in this Work Breakdown Structure (WBS). The project is divided into manageable parts by it's hierarchical structure.
 
 ![diagram-export-8-30-2024-1_47_56-AM](https://github.com/user-attachments/assets/9ccdea4b-3c74-43dd-92be-a8988f0ff2f2)
 
