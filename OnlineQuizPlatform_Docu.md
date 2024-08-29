@@ -10,22 +10,22 @@ https://training.safetyculture.com/blog/online-quiz-platforms/
 
  User Management
 
-         Registration and Login: Easy sign-up with email.
+      Registration and Login: Easy sign-up with email.
 
-         User Profiles: Personalized dashboards with progress tracking.
+      User Profiles: Personalized dashboards with progress tracking.
 
-         Role-Based Access: Differentiated access for students, teachers, and admins.
+      Role-Based Access: Differentiated access for students, teachers, and admins.
 
 
 Quiz Creation and Management
 
-        Custom Quiz Builder: Supports multiple question types and formats.
+      Custom Quiz Builder: Supports multiple question types and formats.
 
-        Question Bank: Central repository for reusable questions.
+      Question Bank: Central repository for reusable questions.
 
-        Randomization: Shuffle questions and answers to prevent cheating.
+      Randomization: Shuffle questions and answers to prevent cheating.
 
-        Timed Quiz: Set time limits for quizzes or individual questions.
+      Timed Quiz: Set time limits for quizzes or individual questions.
         
 
 User Experience (UX)
