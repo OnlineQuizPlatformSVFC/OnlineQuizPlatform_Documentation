@@ -1,1 +1,1 @@
-https://hostrider.com/
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Carter+One&pause=1000&background=FFFFFF00&center=true&width=340&height=40&lines=Online+Quiz+Platform;Group+project+in+System;Integration+++++and+architecture2;)](https://git.io/typing-svg) 
