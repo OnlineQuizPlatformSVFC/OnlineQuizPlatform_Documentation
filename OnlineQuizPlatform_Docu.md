@@ -39,11 +39,7 @@ User Experience (UX)
 
 Notifications
      
-     Email and SMS Alerts: notifications for quiz deadlines and results.
-
      Customer Support: Access to email, or phone. 
-     
-
 
 Project Characteristics:
 
