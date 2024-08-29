@@ -8,8 +8,6 @@ https://training.safetyculture.com/blog/online-quiz-platforms/
 
 ## B. Project Features and Characteristics
 
-Project Features:
-
  User Management
 
          Registration and Login: Easy sign-up with email.
