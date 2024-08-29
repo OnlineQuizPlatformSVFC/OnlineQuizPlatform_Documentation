@@ -57,7 +57,7 @@ To develop a OnlineQuizPlatform APP that will help manage the quiz with the foll
 
 Prepared by: 
             
-             Calda,Rodel  E. 
-             Camo,Lorenz  T.
-             Decio,Rodel  M.
-             Maitom, Christine Jane M.
+    Calda,Rodel  E. 
+    Camo,Lorenz  T.
+    Decio,Rodel  M.
+    Maitom, Christine Jane M.
