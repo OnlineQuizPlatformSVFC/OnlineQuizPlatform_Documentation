@@ -61,103 +61,109 @@ The platform will also be made to be universally accessible, adaptable, and resp
 ## D. Work breakdown Structure
 The main actions involved in creating an online quiz platform are delineated in this Work Breakdown Structure (WBS). The project is divided into manageable parts by its hierarchical structure.
 
-flowchart TB
-    subgraph Project_Management
-        A[Project Planning]
-        B[Project Monitoring and Control]
-        C[Project Execution]
-        D[Project Closure]
-        
-        A --> A1[Develop Project Schedule and Timeline]
-        A --> A2[Identify and Manage Risks]
-        A --> A3[Define Communication Plan]
+ •Project Planning
+  
+      - To develop a project schedule and timeline
+      - To Identify and Manage Risks 
+      - To Define a Communication Plan
 
-        B --> B1[Monitor Project Performance and Progress]
-        B --> B2[Control Issues and Changes]
-        B --> B3[Monitor Budget and Resources]
+  •Project Monitoring and Control
+  
+       - Monitor Project Performance and Progress 
+       - Control Issues and Changes
+       - Monitor Budget and Resources 
 
-        C --> C1[Team Management and Coordination]
-        C --> C2[Risk Mitigation and Response]
-        C --> C3[Reporting and Stakeholder Communication]
+  •Project Execution
+  
+       - Team Management and Coordination
+       - Risk Mitigation and Response
+       - Reporting and Stakeholder Communication
 
-        D --> D1[Finalize Deliverables and Documentation]
-        D --> D2[Review and Evaluate the Project]
-    end
-    
-    subgraph Platform_Development
-        E[Frontend Development]
-        F[Backend Development]
-        G[Testing and Quality Assurance]
-        H[Deployment and Maintenance]
+  •Project Closure
+  
+       - Finalize Deliverables and Documentation
+       - Review and Evaluate the Project
 
-        E --> E1[Design and Development of User Interfaces]
-        E --> E2[Management of User Accounts and Verification]
-        E --> E3[Editor and Creation Interface for Quizzes]
-        E --> E4[Features for Collaboration and Sharing of Quizzes]
+Platform Development:
 
-        F --> F1[Security and Management of User Data]
-        F --> F2[Quiz Data Archiving and Access]
-        F --> F3[Quiz Content Management System]
-        F --> F4[Tracking and Optimizing Performance]
+  •Frontend Development
+  
+       - Design and Development of User Interfaces 
+       - Management of User Accounts and Verification
+       - Editor and Creation Interface for Quizzes 
+       - Features for Collaboration and Sharing of Quizzes
 
-        G --> G1[Individual Component Unit Testing]
-        G --> G2[Acceptance Testing for Users (UAT)]
-        G --> G3[Testing for Load and Performance]
+  • Backend Development
+  
+        - Security and Management of User Data
+        - Quiz Data Archiving and Access
+        - Quiz Content Management System 
+        - Tracking and optimizing performance
 
-        H --> H1[Configuring and Setup Infrastructure]
-        H --> H2[Release Management and Platform Deployment]
-        H --> H3[Bug Repair and Problem Solving]
-        H --> H4[Updates for System and New Features]
-    end
-    
-    subgraph Content_Management
-        I[Content Creation Tools]
-        J[Content Moderation]
-        K[Content Distribution and Sharing]
+  • Testing and Quality Assurance
+  
+        - Individual Component Unit Testing 
+        - Acceptance Testing for Users (UAT) 
+        - Testing for Load and Performance
 
-        I --> I1[Interface for Creating and Editing Questions]
-        I --> I2[Quiz Content Management System]
-        I --> I3[Ability to Upload Images and Videos]
+  • Deployment and Maintenance
+  
+        - Configuring and Setup Infrastructure 
+        - Release management and platform deployment
+        - Bug Repair and Problem Solving 
+        - Updates for the system and new features
 
-        J --> J1[Procedure for Content Approval and Review]
-        J --> J2[Identification and Avoidance of Spam]
-        J --> J3[Systems for User Reporting and Feedback]
+Content Management:
+ 
+  •Content Creation Tools
+  
+       - Interface for creating and editing questions
+       - Quiz Content Management System
+       - Ability to upload images and videos
 
-        K --> K1[Features for Quiz Sharing (Links, Social Media)]
-        K --> K2[Features for Collaboration When Creating Quizzes]
-        K --> K3[Search and Content Discovery Features]
-    end
-    
-    subgraph Security_and_Privacy
-        L[User Authentication and Authorization]
-        M[Data Encryption and Storage]
-        N[Security Testing and Vulnerability Management]
+  •Content Moderation
+  
+        - Procedure for Content Approval and Review
+        - Identification and Avoidance of Spam
+        - Systems for User Reporting and Feedback
 
-        L --> L1[Secure User Registration and Login]
-        L --> L2[Access Control Based on Roles for Various Users]
-        L --> L3[Security and Management of Passwords]
+  • Content Distribution and Sharing
+  
+        - Features for Quiz Sharing (Links, Social Media) 
+        - Features for Collaboration When Creating Quizzes
+        - Search and Content Discovery Features
 
-        M --> M1[Secure Data Encryption and Storage]
-        M --> M2[Disaster Recovery and Data Backup]
+Security and Privacy:
+ 
+  • User Authentication and Authorization
+  
+        - Secure User Registration and Login 
+        - Access Control Based on Roles for Various Users
+        - Security and Management of Passwords
 
-        N --> N1[Regular Security Audits and Penetration Testing]
-        N --> N2[Patching and Vulnerability Management]
-    end
-    
-    subgraph Marketing_and_Launch
-        O[Marketing Strategy and Plan]
-        P[Platform Launch and Promotion]
+ •Data Encryption and Storage
+ 
+        - Secure Data Encryption and Storage
+        - Disaster Recovery and Data Backup
 
-        O --> O1[Identification and Segmentation of Target Audience]
-        O --> O2[Advertising Campaigns and Channels]
-        O --> O3[Social Media Interaction and Content Marketing]
+ •Security Testing and Vulnerability Management
+ 
+        - Regular Security Audits and Penetration Testing
+        - Patching and Vulnerability Management
 
-        P --> P1[Beta Testing and Gathering Input]
-        P --> P2[Public Introduction and Declaration]
-        P --> P3[User Acquisition and Growth Strategies]
-    end
+Marketing and Launch:
+ 
+ •Marketing Strategy and Plan
+ 
+         - Identification and Segmentation of the Target Audience
+         - Advertising Campaigns and Channels 
+         - Social media Interaction and Content Marketing
 
-
+ •Platform Launch and Promotion
+ 
+          - Beta Testing and Gathering Input 
+          - Public Introduction and Declaration 
+          - User Acquisition and Growth Strategies
 
 ## E. Functional Requirements
 
