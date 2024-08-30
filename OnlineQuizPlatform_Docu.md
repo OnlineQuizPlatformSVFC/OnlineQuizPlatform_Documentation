@@ -10,10 +10,10 @@ https://training.safetyculture.com/blog/online-quiz-platforms/
 
 Project Features:
 Quiz Creation Tool: Allows teachers to create quizzes with various question types, including multiple choice, true/false, short answer, and multimedia-enhanced questions.
+User Roles and Permissions: Separate dashboards and functionalities for teachers (quiz creation, grading, analytics) and students (taking quizzes, viewing results).
 Analytics and Reporting: Provides performance data, quiz statistics, and insights into student progress.
 Mobile Responsiveness: The platform adapts to mobile devices, ensuring a seamless experience across desktops and smartphones.
-Security Features: Includes authentication, data encryption, and measures to prevent cheating during quizzes.
-Project Characteristics:
+
 User-Friendly Interface: Intuitive design for both teachers and students, making the platform easy to navigate.
 Scalability: Capable of handling a large number of users, with support for future expansion.
 Customizability: Teachers can customize quizzes, question formats, and assign quizzes to different student groups.
