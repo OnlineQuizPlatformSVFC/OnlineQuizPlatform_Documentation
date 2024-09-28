@@ -1,7 +1,7 @@
 # Project General Information
                
 ## A. Problem Statement:
-There is an increasing demand for effective and efficient ways of assessing knowledge and abilities in today’s educational environment. Traditional paper-based quizzes and tests take a long time to administer and mark, making it difficult for teachers and instructors to respond in a timely manner. Furthermore, these strategies are often rigid, making it difficult to accommodate learning preferences for distant students or different individuals. With the rise of digital learning, there is a need for an online quiz system that can automate the creation, management and grading of quizzes.
+There is an increasing demand for effective and efficient ways of assessing knowledge and abilities in today’s educational environment. Traditional paper-based quizzes and tests take a long time to administer and mark, making it difficult for teachers and instructors to respond in a timely manner. Furthermore, these strategies are often rigid, making it difficult to accommodate learning preferences for distant students or different individuals. With the rise of digital learning, there is a need for an online quiz system that can automate the creation, management and grading of quizzes..
 
 References Smith, J., & Johnson, R. (2022). The limitations of traditional paper-based assessments in modern education. Journal of Educational Methods, 45(3), 112-125. Brown, L. (2021). Adapting assessments for diverse learning needs: A review of current practices. International Journal of Distance Education, 30(2), 88-102. Davis, K., Martin, S., & Lee, A. (2023). The impact of digital assessment tools on educational outcomes. Educational Technology Review, 58(1), 45-59.
 
