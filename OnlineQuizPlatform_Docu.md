@@ -4,14 +4,22 @@ The online quiz platform aims to provide a simple digital solution for teachers 
 
 ## B. Project Features and Characteristics
      • Quiz Creation Tool: Create quizzes with various question types, including multiple choice, true/false, short answer, and multimedia-enhanced questions.
+     
        User Roles and Permissions: Separate dashboards and functionalities for teachers (quiz creation, grading, analytics) and students (taking quizzes, viewing 
        results).
+       
        Analytics and Reporting: Provides performance data, quiz statistics, and insights into student progress.
+       
        Mobile Responsiveness: The platform adapts to mobile devices, ensuring a seamless experience across desktops and smartphones.
+       
        User-Friendly Interface: Intuitive design for both teachers and students, making the platform easy to navigate.
+       
        Scalability: Capable of handling a large number of users, with support for future expansion.
+       
        Customizability: Teachers can customize quizzes, question formats, and assign quizzes to different student groups.
+       
        Accessibility: Designed with accessibility in mind, following guidelines to support users with disabilities.
+       
        Documentation and Training: Comprehensive user guides, training materials, and thorough testing to ensure a smooth onboarding and usage experience.
 
 ## C. Project Scope
