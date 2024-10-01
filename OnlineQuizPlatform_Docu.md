@@ -65,8 +65,9 @@ The main actions involved in creating an online quiz platform are delineated in 
 |     |                         |                                                           | 3. Ensure data security and handle backup processes.                         |
 |     |                         |                                                           | 4. Manage platform settings, including language and appearance customization. |
         2. Use case
-        
 
+## Use case
+        
 ![usecase1 (1)](https://github.com/user-attachments/assets/5b7d9314-4e40-40ae-888a-7077e36022c9)
 
 
