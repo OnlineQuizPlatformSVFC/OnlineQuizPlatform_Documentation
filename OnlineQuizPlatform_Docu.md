@@ -31,7 +31,7 @@ The online quiz platform aims to provide a simple digital solution for teachers 
       extensive testing, and training materials to guarantee successful implementation and usage are all part of the project deliverables.
       
     • The online quiz platform may face limitations in customization for complex quiz formats and handling large user loads, which could impact performance. Security challenges such as preventing 
-      cheating and data breaches could affect reliability. Limited offline functionality means users need a stable internet connection, restricting access in areas with poor connectivity. 
+      cheating and data breaches could affect reliability. Limited offline functionality means users need a stable internet connection, restricting access in areas with poor connectivity.
      
 
 ## D. Work breakdown Structure
