@@ -73,67 +73,71 @@ The main actions involved in creating an online quiz platform are delineated in 
 
 | Column Name     | Data Type      | Constraints                | Description                           |
 |-----------------|-----------------|-----------------------------|---------------------------------------|
-| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each user       |
-| First Name      | VARCHAR(50)     | NOT NULL                    | User's first name                     |
-| Middle Name      | VARCHAR(50)     | NULL                        | Optional middle name                 |
-| Last Name       | VARCHAR(50)     | NOT NULL                    | User's last name                      |
+| User_id         | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each user       |
+| Name            | VARCHAR(50)     | NOT NULL                    | User's name                           |
 | Email           | VARCHAR(100)    | UNIQUE, NOT NULL            | Unique email address                  |
 | Password        | VARCHAR(255)    | NOT NULL                    | Hashed password                       |
-| Role            | ENUM('instructor', 'administrator', 'student') | NOT NULL | Role of the user                      |
-| Registered      | DATETIME        | NOT NULL                    | Timestamp of user registration        |
-| Last Login      | DATETIME        | NULL                        | Timestamp of last user login          |
-| Profile Picture | VARCHAR(255)    | NULL                        | URL of the user's profile picture     |
+| Role            | ENUM('teacher', 'student') | NOT NULL         | Role of the user                      |
+| created_at     | DATETIME         | NOT NULL, Default: CURRENT_TIMESTAMP                    | Date and time when the user was created.       |
+| update_at     | DATETIME        | NULL, On Update: CURRENT_TIMESTAMP                        |  Date and time when the user last updated.       |
+
 
 #### 2. Quiz Table
 
 | Column Name     | Data Type      | Constraints                | Description                           |
 |-----------------|-----------------|-----------------------------|---------------------------------------|
-| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each quiz        |
+| quiz_id         | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each quiz       |
 | Title           | VARCHAR(100)    | NOT NULL                    | Title of the quiz                     |
 | Description     | TEXT            | NULL                        | Overview of the quiz                  |
-| Category        | VARCHAR(50)     | NULL                        | Topic or category of the quiz         |
-| Difficulty      | ENUM('easy', 'medium', 'hard') | NULL      | Difficulty level of the quiz          |
+| teacher_id      | INT             | Foreign key to User(user_id)| References the teacher who created the quiz    |
 | Duration        | INT             | NOT NULL                    | Time allotted to complete the quiz (in minutes) |
-| Created By      | INT             | FOREIGN KEY (User.Id)       | User ID of the quiz creator            |
-| Created         | DATETIME        | NOT NULL                    | Timestamp of quiz creation            |
-| Published       | BOOLEAN         | DEFAULT FALSE               | Flag indicating if the quiz is published |
+| created_at      | DATETIME        | NOT NULL, Default: CURRENT_TIMESTAMP  | Timestamp of quiz created            |
+| updated_at       |  DATETIME         | NULL, On Update: CURRENT_TIMESTAMP  | Timestamp of quiz updated  |
 
 #### 3. Question Table
 
 | Column Name     | Data Type      | Constraints                | Description                           |
 |-----------------|-----------------|-----------------------------|---------------------------------------|
-| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each question    |
+| question_id     | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each question    |
 | Quiz Id         | INT             | FOREIGN KEY (Quiz.Id)       | ID of the quiz the question belongs to |
 | Question Text   | TEXT            | NOT NULL                    | Text of the question                  |
-| Question Type   | ENUM('multiple-choice', 'true/false', 'short answer', 'essay') | NOT NULL | Type of the question                  |
-| Options         | JSON            | NULL                        | Options for multiple-choice questions (if applicable) |
-| Correct Answer  | TEXT            | NOT NULL                    | Correct answer for the question       |
+| Question Type   | ENUM('multiple-choice', 'true/false', 'short answer', 'essay') | NOT NULL | Type of the question |
+| created_at      | DATETIME        |  NOT NULL, Default: CURRENT_TIMESTAMP| Timestamp of question was created  |
+| updated_at      | DATETIME        |NULL, On Update: CURRENT_TIMESTAMP  |   Timestamp of question was updated   |
 
-#### 4. Answer Table
 
-| Column Name     | Data Type      | Constraints                | Description                           |
-|-----------------|-----------------|-----------------------------|---------------------------------------|
-| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each answer      |
-| Question Id     | INT             | FOREIGN KEY (Question.Id)   | ID of the question being answered      |
-| User Id         | INT             | FOREIGN KEY (User.Id)       | ID of the user who answered            |
-| Answer Text     | TEXT            | NOT NULL                    | Text of the user's answer             |
-| Is Correct      | BOOLEAN         | NOT NULL                    | Flag indicating if the answer is correct |
-
-#### 5. Attempt Table
+#### 4. Option (For multiple-choice questions)
 
 | Column Name     | Data Type      | Constraints                | Description                           |
 |-----------------|-----------------|-----------------------------|---------------------------------------|
-| Id              | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each attempt     |
-| Quiz Id         | INT             | FOREIGN KEY (Quiz.Id)       | ID of the quiz being attempted         |
-| User Id         | INT             | FOREIGN KEY (User.Id)       | ID of the user taking the quiz         |
-| Start Time      | DATETIME        | NOT NULL                    | Timestamp of when the attempt started  |
-| End Time        | DATETIME        | NOT NULL                    | Timestamp of when the attempt ended    |
-| Score           | DECIMAL(5, 2)   | NULL                        | Final score of the attempt            |
-| Duration        | INT             | NOT NULL                    | Time taken to complete the quiz (in minutes) |
+| option_id       | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each option in MCQ  |
+| question_id         | INT             | FOREIGN KEY (question_id )       | References the question to which the option belongs.        |
+| option_text        |VARCHAR(255)           | NOT NULL      | The text of the option.        |
+| is_correct    | BOOLEAN      | NOT NULL, Default: 0                   | Indicates if the option is the correct answer. |
 
+
+#### 5. Answer Table
+
+| Column Name     | Data Type      | Constraints                | Description                           |
+|-----------------|-----------------|-----------------------------|---------------------------------------|
+| answer_id           | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each submitted answer.      |
+| question_id    | INT             | Foreign Key (FK) to Question(question_id)   | References the question this answer belongs to.     |
+| student_id        | INT             | Foreign Key (FK) to User(user_id)     | References the student who submitted the answer.         |
+| answer_text     | TEXT            |NULL                    | The student's submitted answer (for short answer questions).             |
+| submitted_at      | DATETIME         | NOT NULL, Default: CURRENT_TIMESTAMP                    | Date and time when the answer was submitted. |
+
+
+#### 6. Result Table
+
+| Column Name     | Data Type      | Constraints                | Description                           |
+|-----------------|-----------------|-----------------------------|---------------------------------------|
+| result_id    | INT             | Primary Key (PK), Auto Increment | Unique identifier for each quiz result.   |
+| quiz_id       | INT             | Foreign Key (FK) to Quiz(quiz_id)       | References the quiz for which the result is recorded.|
+| student_id   | INT            | Foreign Key (FK) to User(user_id)                 | References the student who took the quiz.                 |
+| score   | DECIMAL(5,2) | NOT NULL | The score achieved by the student in the quiz. |
+| submitted_at     | DATETIME        |  NOT NULL, Default: CURRENT_TIMESTAMP| Date and time when the quiz was submitted. |
 
 ### ERD
-
-![image](https://github.com/user-attachments/assets/5a982074-2607-4839-b148-f921b8bdf8f8)
+![image](https://github.com/user-attachments/assets/2689813e-a83d-44ec-9412-9aef4af2c03c)
 
  
