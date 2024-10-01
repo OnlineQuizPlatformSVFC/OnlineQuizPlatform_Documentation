@@ -74,7 +74,7 @@ Focus on creating a clean, modern design that enhances the overall user experien
       • User Acceptance Testing
 
 ## F. Benchmarking
-  1. Quizizz
+  1. [Quizizz](https://quizizz.com/)
 
 ## G. Estimated Project Duration:
 4-6 months
