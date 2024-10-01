@@ -10,7 +10,7 @@ Create an online quiz platform where users can host and create quizzes on a vari
 
 ## C. Project Objectives:
 
-To develop a OnlineQuizPlatform APP that will help manage the quiz with the following features:
+To develop a OnlineQuizPlatform  that will help manage the quiz with the following features:
 1.Automate Quiz Creation and Grading: Reduce manual effort by allowing educators to create quizzes easily and have them graded automatically.
 2.Support Multiple Question Formats: Include various types of questions such as multiple-choice, true/false, short answer, and essay.
 3.Feedback: Provide instant feedback to participants to enhance the learning experience.
