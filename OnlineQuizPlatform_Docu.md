@@ -66,7 +66,8 @@ The main actions involved in creating an online quiz platform are delineated in 
 |     |                         |                                                           | 4. Manage platform settings, including language and appearance customization. |
         2. Use case
         
-![graphviz](https://github.com/user-attachments/assets/a191530e-b623-40f2-9462-2dc917ad2f1d)
+
+<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.008;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="100" y="310" as="sourcePoint"/><mxPoint x="276" y="416" as="targetPoint"/></mxGeometry></mxCell></root></mxGraphModel>
 
 ## F. Database Architecture
 ### Data Dictionary
