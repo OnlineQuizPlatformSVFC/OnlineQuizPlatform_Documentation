@@ -22,6 +22,7 @@ The online quiz platform aims to provide a simple digital solution for teachers 
        
        Documentation and Training: Comprehensive user guides, training materials, and thorough testing to ensure a smooth onboarding and usage experience.
 
+
 ## C. Project Scope
     • The Online Quiz Platform is a web application created to make it easier to create, administer, and take part in online quizzes. With a tools for making and   
       administering quizzes, taking quizzes, getting feedback, and analyzing outcomes, this platform will serve both administrators and users to security measures, 
