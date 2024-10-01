@@ -12,17 +12,17 @@ Create an online quiz platform where users can host and create quizzes on a vari
 
 To develop a OnlineQuizPlatform  that will help manage the quiz with the following features:
 
-1.Automate Quiz Creation and Grading: Reduce manual effort by allowing educators to create quizzes easily and have them graded automatically.
+    1.Automate Quiz Creation and Grading: Reduce manual effort by allowing educators to create quizzes easily and have them graded automatically.
 
-2.Support Multiple Question Formats: Include various types of questions such as multiple-choice, true/false, short answer, and essay.
+    2.Support Multiple Question Formats: Include various types of questions such as multiple-choice, true/false, short answer, and essay.
 
-3.Feedback: Provide instant feedback to participants to enhance the learning experience.
+    3.Feedback: Provide instant feedback to participants to enhance the learning experience.
 
-4.Data Security: Ensure the security and privacy of user data.
+    4.Data Security: Ensure the security and privacy of user data.
 
-5.Scalability: Handle a large number of users simultaneously without performance issues.
+    5.Scalability: Handle a large number of users simultaneously without performance issues.
 
-6.User-Friendly Interface: Design an intuitive interface that is easy to navigate for both quiz creators and participants.
+    6.User-Friendly Interface: Design an intuitive interface that is easy to navigate for both quiz creators and participants.
 
 ## D. Business Benefits:
 
