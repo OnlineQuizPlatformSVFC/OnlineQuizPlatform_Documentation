@@ -30,8 +30,8 @@ The online quiz platform aims to provide a simple digital solution for teachers 
       The platform will also be made to be universally accessible, adaptable, and responsive to mobile devices. A working web application, thorough documentation, 
       extensive testing, and training materials to guarantee successful implementation and usage are all part of the project deliverables.
       
-    •The online quiz platform may face limitations in customization for complex quiz formats and handling large user loads, which could impact performance. Security challenges such as preventing 
-     cheating and data breaches could affect reliability. Limited offline functionality means users need a stable internet connection, restricting access in areas with poor connectivity. 
+    • The online quiz platform may face limitations in customization for complex quiz formats and handling large user loads, which could impact performance. Security challenges such as preventing 
+      cheating and data breaches could affect reliability. Limited offline functionality means users need a stable internet connection, restricting access in areas with poor connectivity. 
      
 
 ## D. Work breakdown Structure
