@@ -44,6 +44,8 @@ To develop a OnlineQuizPlatform APP that will help manage the quiz with the foll
       • Data Dictionary
       • Entity Relationship Diagram
       • Dataflow Diagram
+      
+       
     
     2. Design
       • Low Fidelity
@@ -51,6 +53,7 @@ To develop a OnlineQuizPlatform APP that will help manage the quiz with the foll
       • Prototype
     
     4. Development
+      • Functional and non-functional features built and tested.
        
     
     6. Test
