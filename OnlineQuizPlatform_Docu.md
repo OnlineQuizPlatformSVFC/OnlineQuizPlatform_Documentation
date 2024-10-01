@@ -40,7 +40,6 @@ The main actions involved in creating an online quiz platform are delineated in 
 ![image](https://github.com/user-attachments/assets/11518cf3-96cd-4585-b922-61b2a4ba4dee)
 
 
-
 ## E. Functional Requirements
 
         1. User  Requirements
