@@ -67,7 +67,8 @@ The main actions involved in creating an online quiz platform are delineated in 
         2. Use case
         
 
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.008;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="100" y="310" as="sourcePoint"/><mxPoint x="276" y="416" as="targetPoint"/></mxGeometry></mxCell></root></mxGraphModel>
+![usecase1 (1)](https://github.com/user-attachments/assets/5b7d9314-4e40-40ae-888a-7077e36022c9)
+
 
 ## F. Database Architecture
 ### Data Dictionary
