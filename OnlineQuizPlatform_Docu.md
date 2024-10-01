@@ -43,9 +43,9 @@ The main actions involved in creating an online quiz platform are delineated in 
 ## E. Functional Requirements
 
         1. User  Requirements
-| No. | Users                   | System Features                                           | Requirement                                                                 |
+| No. |                 | System Features                                           | Requirement                                                                 |
 |-----|-------------------------|-----------------------------------------------------------|------------------------------------------------------------------------------|
-| 1   | Educators/Instructors    | A. Quiz Management                                        | 1. Ability to create and customize quizzes with different types of questions (multiple-choice, true/false, short answer, essay). |
+| 1   |  Admin   | A. Quiz Management                                        | 1. Ability to create and customize quizzes with different types of questions (multiple-choice, true/false, short answer, essay). |
 |     |                         |                                                           | 2. Capability to schedule quizzes for specific dates and times.              |
 |     |                         |                                                           | 3. Option to set time limits for each quiz.                                   |
 |     |                         |                                                           | 4. Automated grading system for objective questions.                         |
@@ -53,16 +53,12 @@ The main actions involved in creating an online quiz platform are delineated in 
 |     |                         |                                                           | 6. Access to detailed reports and analytics for quizzes.                     |
 |     |                         |                                                           | 7. Ability to provide instant feedback to quiz takers.                       |
 |     |                         |                                                           | 8. User-friendly interface for quiz creation and management.                 |
-| 2   | Students/Participants    | A. Quiz Access and Interaction                            | 1. Easy access to available quizzes through a dashboard.                     |
+| 2   |  Users      | A. Quiz Access and Interaction                            | 1. Easy access to available quizzes through a dashboard.                     |
 |     |                         |                                                           | 2. Ability to take quizzes within a set timeframe.                           |
 |     |                         |                                                           | 3. Receive immediate feedback after quiz submission.                         |
 |     |                         |                                                           | 4. Access to quiz history and performance statistics.                        |
 |     |                         |                                                           | 5. Mobile accessibility to take quizzes on different devices.                |
 |     |                         |                                                           | 6. Secure login and user data protection.                                    |
-| 3   | Administrators           | A. System Management                                      | 1. Manage user roles and permissions (e.g., educators, students).            |
-|     |                         |                                                           | 2. Monitor system performance and user activity.                             |
-|     |                         |                                                           | 3. Ensure data security and handle backup processes.                         |
-|     |                         |                                                           | 4. Manage platform settings, including language and appearance customization. |
         2. Use case
 
 ## Use case
