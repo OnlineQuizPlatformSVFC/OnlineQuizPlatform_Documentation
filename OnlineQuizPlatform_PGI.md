@@ -72,7 +72,7 @@ To develop a OnlineQuizPlatform  that will help manage the quiz with the followi
       • User Acceptance Testing
 
 ## F. Benchmarking
-  1. Quiziz
+  1. Quizizz
 
 ## G. Estimated Project Duration:
 4-6 months
