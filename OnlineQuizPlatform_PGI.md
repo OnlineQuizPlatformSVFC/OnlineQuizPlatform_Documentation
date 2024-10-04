@@ -15,35 +15,27 @@ Create an online quiz platform where users can host and create quizzes on a vari
 
 To develop a OnlineQuizPlatform  that will help manage the quiz with the following features:
 
-   1. Enable Seamless Quiz Creation: Provide an intuitive interface that allows teachers to create quizzes with various question types (e.g., multiple choice, true/false, short answer, multimedia questions).
+| **Feature**                                             | **Description**                                                                                                                        |
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Enable Seamless Quiz Creation                           | Provide an intuitive interface that allows teachers to create quizzes with various question types (e.g., multiple choice, true/false).   |
+| Facilitate Efficient Quiz Participation                  | Ensure that students can easily access and take quizzes via unique codes.                                                               |
+| Provide Automated and Manual Grading                    | Implement automated grading for objective questions (e.g., multiple choice, true/false). Teachers can manually grade subjective questions.|
+| Data Security                                           | Ensure the security and privacy of user data.                                                                                           |
+| Support Scalability and Growth                          | Design the platform to handle a large number of concurrent users, ensuring smooth performance even during peak times.                    |
+| Deliver a User-Friendly and Intuitive Experience        | Ensure the platform is easy to navigate for both teachers and students, with minimal learning curves. Focus on a modern design.          |
 
-2. Facilitate Efficient Quiz Participation: Ensure that students can easily access and take quizzes via unique codes  
-
-3. Provide Automated and Manual Grading: Implement automated grading for objective questions (e.g., multiple choice, true/false).
-Allow teachers to manually grade subjective questions (e.g., short answers or multimedia-based questions) to ensure fair assessment.
-
-4.Data Security: Ensure the security and privacy of user data.
-
-5. Support Scalability and Growth: Design the platform to handle a large number of concurrent users, ensuring smooth performance even during peak times.
-
-6. Deliver a User-Friendly and Intuitive Experience: Ensure the platform is easy to navigate for both teachers and students, with minimal learning curves.
-Focus on creating a clean, modern design that enhances the overall user experience.
 
 ## D. Business Benefits:
 
-  1. Increased User Engagement:  Quizzes provide interactive and engaging content, keeping users interested and active on the platform.
-  2. Educational Advantages: Quizzes can be used to assess and reinforce learning in educational settings or training programs.       
-     Educational quizzes help users practice and improve their skills in a fun and interactive way.
-  3. Data Collection and Analysis: Gathering data from quiz responses provides insights into user preferences, behaviors, and trends. 
-     This information can be used for targeted marketing, product development, or improving user experience.
-  4. Lead Generation: Quizzes often require users to provide information such as email addresses. This data can be used to generate 
-     leads for marketing campaigns or sales.
-  5. Educational Opportunities: If the quizzes have an educational component, they can establish your platform as a valuable resource 
-     for learning, attracting users interested in knowledge and skill development.
-  6. Cross-Promotion: You can use quizzes to promote other products or services, offering upsells or cross-sells that complement the 
-     quiz content.
-  7. Feedback and Improvement: Quizzes can serve as a tool for collecting user feedback, helping you to understand user needs and 
-     preferences better and to refine your offerings.
+| **Benefits**                                             | **Description**                                                                                                                        |
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Increased User Engagement                               | Quizzes provide interactive and engaging content, keeping users interested and active on the platform.                                  |
+| Educational Advantages                                  | Quizzes assess and reinforce learning in educational or training settings, helping users improve skills in a fun way.                   |
+| Data Collection and Analysis                            | Collecting data from quiz responses provides insights into user preferences and trends for marketing or product development.             |
+| Lead Generation                                         | Quizzes often require user data, such as email addresses, which can be used to generate leads for marketing or sales.                   |
+| Educational Opportunities                               | Quizzes with educational content establish your platform as a valuable learning resource, attracting users interested in knowledge.      |
+| Cross-Promotion                                         | You can use quizzes to promote other products or services, offering upsells or cross-sells that complement the quiz content.             |
+| Feedback and Improvement                                | Quizzes serve as tools for collecting user feedback, helping you understand user needs better and refine your offerings.                 |
      
 ## E. Project Deliverables:
     1. Requirements
