@@ -90,6 +90,7 @@ The main actions involved in creating an online quiz platform are delineated in 
 | quiz_id         | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each quiz       |
 | Title           | VARCHAR(100)    | NOT NULL                    | Title of the quiz                     |
 | Description     | TEXT            | NULL                        | Overview of the quiz                  |
+| quiz_code     | VARCHAR(20)           | NOT NULL                        | The code of the quiz                 |
 | teacher_id      | INT             | Foreign key to User(user_id)| References the teacher who created the quiz    |
 | Duration        | INT             | NOT NULL                    | Time allotted to complete the quiz (in minutes) |
 | created_at      | DATETIME        | NOT NULL, Default: CURRENT_TIMESTAMP  | Timestamp of quiz created            |
