@@ -139,7 +139,8 @@ The main actions involved in creating an online quiz platform are delineated in 
 | submitted_at     | DATETIME        |  NOT NULL, Default: CURRENT_TIMESTAMP| Date and time when the quiz was submitted. |
 
 ### ERD
-![image](https://github.com/user-attachments/assets/7274b284-9c07-42b6-b9f2-af0e14c2e0ca)
+![image](https://github.com/user-attachments/assets/109079a9-cd61-4ff6-ab53-915d3fd806c8)
+
 
 https://lucid.app/lucidchart/3e889906-07a0-4379-8582-ca841fd4d1a1/edit?viewport_loc=-1875%2C-1117%2C4013%2C1864%2C0_0&invitationId=inv_6f4efdd6-431a-4dd4-8b29-d3c807d0b104
 
