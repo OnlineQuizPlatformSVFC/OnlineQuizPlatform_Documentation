@@ -80,7 +80,7 @@ The main actions involved in creating an online quiz platform are delineated in 
 | Password        | VARCHAR(255)    | NOT NULL                    | Hashed password                       |
 | Role            | ENUM('teacher', 'student') | NOT NULL         | Role of the user                      |
 | created_at     | DATETIME         | NOT NULL, Default: CURRENT_TIMESTAMP                    | Date and time when the user was created.       |
-| update_at     | DATETIME        | NULL, On Update: CURRENT_TIMESTAMP                        |  Date and time when the user last updated.       |
+| update_at     | DATETIME        | NULL, On Update: CURRENT_TIMESTAMP                        |  Date and time when the user was last updated.       |
 
 
 #### 2. Quiz Table
