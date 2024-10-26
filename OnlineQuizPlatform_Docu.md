@@ -81,6 +81,8 @@ The main actions involved in creating an online quiz platform are delineated in 
 | Role            | ENUM('teacher', 'student') | NOT NULL         | Role of the user                      |
 | createdAt     | DATETIME         | NOT NULL, Default: CURRENT_TIMESTAMP                    | Date and time when the user was created.       |
 | updateAt     | DATETIME        | NULL, On Update: CURRENT_TIMESTAMP                        |  Date and time when the user was last updated.       |
+| deletedAt       |  DATETIME         | NULL, On Delete: CURRENT_TIMESTAMP  | Timestamp of quiz deleted  |
+
 
 
 #### 2. Quiz Table
