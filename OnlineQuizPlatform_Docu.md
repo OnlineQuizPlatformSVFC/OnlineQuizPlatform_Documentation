@@ -119,7 +119,7 @@ The main actions involved in creating an online quiz platform are delineated in 
 | option_uuid      | INT             | PRIMARY KEY, AUTO_INCREMENT | Unique identifier for each option in MCQ  |
 | question_uuid        | INT             | FOREIGN KEY (question_id )       | References the question to which the option belongs.        |
 | option_text        |VARCHAR(255)           | NOT NULL      | The text of the option.        |
-| is_correct    | BOOLEAN      | NOT NULL, Default: 0                   | Indicates if the option is the correct answer. |
+| correct answer    | STRING      | NOT NULL, Default: 0                   | Indicates if the option is the correct answer. |
 
 
 #### 5. Answer Table
